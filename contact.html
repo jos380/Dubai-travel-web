@@ -2,43 +2,49 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact - Explore Dubai</title>
-<link rel="stylesheet" href="style.css">
+<title>Contact Us</title>
+<style>
+body { font-family: Arial; background:#fff0fa; margin:0; }
+header { background:#c4009f; padding:20px; color:white; text-align:center; }
+nav a { margin:15px; color:white; font-weight:bold; text-decoration:none; }
+.container { padding:30px; }
+form input, form textarea { width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #999; }
+button { background:#c4009f; color:white; padding:10px 20px; border:none; border-radius:8px; cursor:pointer; }
+button:hover { background:#90006e; }
+footer { background:#c4009f; color:white; text-align:center; padding:10px; margin-top:20px; }
+</style>
 </head>
 <body>
+
 <header>
-    <h1>Explore Dubai</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+<h1>Contact Us</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="attractions.html">Attractions</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
 </header>
-<section class="contact-section">
-    <h2>Contact Us</h2>
-    <p>We’re here to help you plan your Dubai adventure. Reach out via any of the following:</p>
-    <ul>
-        <li><strong>Email:</strong> info@exploredubai.com</li>
-        <li><strong>Phone:</strong> +971 50 123 4567</li>
-        <li><strong>Address:</strong> Downtown Dubai, Dubai, UAE</li>
-    </ul>
-    <h3>Send Us a Message</h3>
-    <form>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your full name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
-<footer>
-    <p>&copy; 2025 Explore Dubai | All rights reserved</p>
-</footer>
+
+<div class="container">
+<h2>Get in Touch</h2>
+<p>Have questions or need help planning your Dubai trip? Contact us below:</p>
+
+<form>
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email">
+<input type="text" placeholder="Phone Number">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<h3>Contact Details</h3>
+<p><strong>Email:</strong> info@exploredubai.com</p>
+<p><strong>Phone:</strong> +971-55-123-4567</p>
+<p><strong>Address:</strong> Downtown Dubai, UAE</p>
+</div>
+
+<footer>&copy; 2025 Explore Dubai</footer>
+
 </body>
 </html>
